@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Position</title>
+	<style type="text/css">
+	div{
+		font-size: 25px;
+		height: 70px;
+	}
+	
+	.div1{
+		background-color: red;
+	}
+	.parent{
+		position: relative;
+
+	}
+
+	.div2{
+		background-color: green;
+		position: relative;
+		top: 30px;
+		left: 30px;
+		z-index: 1;
+	}
+	.div3{
+		background-color: blue;
+		position: relative;
+		z-index: 3;
+	}
+	span{
+		position: relative;
+		top: 10px;
+	}
+
+</style>
+</head>
+<body>
+	<!-- <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minima praesentium vero at, minus sequi dolorem. Corrupti modi veritatis maiores eos, illum voluptates minima reiciendis nulla voluptas, accusamus unde maxime.</div> -->
+	<div class="parent">
+		<div class="div1">This is <span>Div1 </span>element</div>
+	<div class="div2">This is Div2 element</div>
+	<div class="div3">This is Div3 element</div>
+	
+	
+</body>
+</html>

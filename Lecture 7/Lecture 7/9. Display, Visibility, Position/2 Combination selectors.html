@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	/*Decendant selector */
+	/*div p{
+		background-color: yellow;
+	}*/
+	/*Child selector*/
+	/*div > p{
+		background-color: blue;
+	}*/
+
+	/*Adjacent siblinds*/
+	/*div + p {
+		background-color: green;
+	}*/
+	/*General siblings*/
+	/*div ~ p{
+		background-color: orange;
+	}*/
+	
+	p[align="left"],p[width="left"]{
+		background-color: tomato;
+	}
+
+	</style>
+</head>
+<body>
+	
+	<div>
+		<p >Paragraph 1 in the div.</p>
+		<p align="left">Paragraph 2 in the div.</p>
+		<span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, vitae consequuntur pariatur voluptates quasi reprehenderit autem nesciunt, ex deleniti impedit rem deserunt perferendis soluta nemo esse similique cumque in. Quisquam!</p>
+		</span>
+		<div> Good News</div>
+
+	</div>
+
+	<p align="right">Paragraph 3. Not in a div.</p>
+   
+	<p >Paragraph 4. Not in a div.</p>
+</body>
+</html>
