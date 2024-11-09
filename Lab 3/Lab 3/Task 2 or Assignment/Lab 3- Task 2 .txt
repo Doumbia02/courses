@@ -1,1 +1,0 @@
-go to http://microsoft.com and design a static a static version of that home page.

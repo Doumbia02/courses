@@ -1,2 +1,0 @@
-map filter reduce
-typed variable in js
